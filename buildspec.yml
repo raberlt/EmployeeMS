@@ -8,7 +8,7 @@ phases:
       - npm install
 
   build:
-    commands:
+    commands:  
       - npm run build
 
   post_build:
