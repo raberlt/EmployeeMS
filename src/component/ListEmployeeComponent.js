@@ -28,7 +28,7 @@ const ListEmployeeComponent = () => {
             <table className='table table-bordered table striped'>
                 <thead>
                     <th>Employee ID ddi e ko ve</th>
-                    <th>Employee First Name</th>
+                    <th>Employee First Name ai di ia duoi ao sau</th>
                     <th>Employee Last Name</th>
                     <th>Employee Email</th>
                     <th>Actions</th>
