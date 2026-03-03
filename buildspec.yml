@@ -13,5 +13,5 @@ phases:
 
   post_build:
     commands:
-      - aws s3 sync build/ s3://linene-employeems --delete --region ap-southeast-1
-      - aws cloudfront create-invalidation --distribution-id E14M4VNRB370T --paths "/*" --region us-east-1
+      - aws s3 sync build/ s3://linene-employeems --delete 
+      - aws cloudfront create-invalidation --distribution-id E14M4VNRB370T --paths "/*" 
